@@ -33,3 +33,56 @@
 .fade-carousel .slides .slide-3 {
   background-image: url(/images/picture3.jpg);
 }
+
+.containerAbout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.meAbout, .contact, .sendMessage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+hr{
+    height: 5px;
+    width: 100px;
+    margin-top: 1px; 
+}
+
+.btn-resume{
+    min-width: 250px;
+}
+
+.img-circle{
+    border: 1px solid black;
+}
+
+.round{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 ,h3{
+ text-align: center; 
+}
+.sectionAbout, .myFooter{
+    padding: 40px
+}
+
+#myContact{
+    
+    background: url(/images/macbook-336704.jpg);
+     height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
